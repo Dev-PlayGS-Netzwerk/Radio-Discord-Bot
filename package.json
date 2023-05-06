@@ -1,0 +1,35 @@
+{
+  "name": "radiobot",
+  "version": "1.0.0",
+  "description": "Radio Bot",
+  "main": "index.js",
+  "engines": {
+		"node": "16.x"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-PlayGS-Netzwerk/Radio-Discord-Bot.git"
+  },
+  "keywords": [
+    "radio",
+    "discordjs"
+  ],
+  "author": "PlayGS Netzwerk, Vecto.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-PlayGS-Netzwerk/Radio-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Dev-PlayGS-Netzwerk/Radio-Discord-Bot#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "beta.db": "^3.0.2",
+    "discord.js": "^13.5.1",
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8"
+  }
+}
